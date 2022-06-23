@@ -1,0 +1,10 @@
+camera: "/camera/depth/points"
+output: "/output"
+z_min_filter_limit: 0.0
+z_max_filter_limit: 1.0
+distance_threshold: 10
+filter_field_name: "z"
+point_color_threshold: 6
+region_color_threshold: 5
+min_cluster_size: 600
+output_type: "segmentation_output_msg"
